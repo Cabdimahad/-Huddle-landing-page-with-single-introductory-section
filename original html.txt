@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  Build The Community Your Fans Will Love
+
+  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+  Create connections with your users as you engage in genuine discussion. 
+
+  Register
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+</body>
+</html>
+
+
+##################mine.html###############
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Build The Community Your Fans Will Love</h1>
+    <p> Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+      Create connections with your users as you engage in genuine discussion.</p>
+      <button>Register</button>
+  </div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Abdimahad Nuur Elmi</a>.
+    </p>
+  </footer>
+</body>
+</html>
+
+
+#################mine.css###############
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    background-color: hsl(257, 40%, 49%);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    height: calc(100vh - 1px);
+    margin: 1.25rem;  
+}
+.container button{
+    justify-self: end;
+    width: min-content;
+    padding: 0;
+    color: var(--bright-blue);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-detail);
+    position: relative;
+    transition: color 250ms; 
+}
+
+
+##############################000000000000000000###################
+  <div class="container">
+    <h1>Build The Community Your Fans Will Love</h1>
+    <p> Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+      Create connections with your users as you engage in genuine discussion.</p>
+      <button>Register</button>
+  </div>
